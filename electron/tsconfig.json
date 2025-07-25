@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "outDir": "../dist-electron",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["*"]
+    }
+  },
+  "include": ["**/*"]
+}
